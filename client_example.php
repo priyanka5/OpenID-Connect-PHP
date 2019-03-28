@@ -26,9 +26,7 @@ require __DIR__ . '/vendor/autoload.php';
 use Jumbojett\OpenIDConnectClient;
 
 $oidc = new OpenIDConnectClient(
-    'https://sso-single-sign-on.lab.ocp.azure.rai.it/auth',
-    'php-sso-client',
-    '6378dc5b-b28a-470d-8e57-4fe7d066355a'
+    'https://sso-single-sign-on.lab.ocp.azure.rai.it/auth'
 );
 
 $oidc->authenticate();
