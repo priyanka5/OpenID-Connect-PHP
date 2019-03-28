@@ -122,12 +122,12 @@ class OpenIDConnectClient
     /**
      * @var bool Verify SSL peer on transactions
      */
-    private $verifyPeer = true;
+    private $verifyPeer = false;
 
     /**
      * @var bool Verify peer hostname on transactions
      */
-    private $verifyHost = true;
+    private $verifyHost = false;
 
     /**
      * @var string if we acquire an access token it will be stored here
